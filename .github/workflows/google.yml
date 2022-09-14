@@ -41,7 +41,7 @@ jobs:
 
       # Alternative option - authentication via credentials json
       - id: "auth"
-        uses: GoogleCloudPlatform/github-actions/setup-gcloud@master
+        uses: GoogleCloudPlatform/github-actions/setup-gcloud@v0
         with:
           service_account_key: ${{ secrets.GCP_CREDENTIALS }}
           project_id: ${{ secrets.GKE_PROJECT }}
