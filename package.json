@@ -1,7 +1,7 @@
 {
-  "name": "01",
+  "name": "02",
   "version": "1.0.0",
-  "description": "A simple node js app",
+  "description": "A simple node js app for dockerizing",
   "main": "index.js",
   "scripts": {
     "test": "mocha --exit",
