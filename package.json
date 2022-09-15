@@ -4,7 +4,7 @@
   "description": "A simple node js app for dockerizing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --exit",
+    "test": "nyc --reporter=lcov mocha --exit",
     "start": "node src/index.js"
   },
   "author": "bobu.putheeckal@gmail.com",
